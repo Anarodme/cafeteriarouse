@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arima:wght@300&family=Cormorant+Garamond:ital,wght@1,600&family=Dancing+Script:wght@700&family=Lobster&display=swap"
+        rel="stylesheet">
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false">
+    </script>
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+
+    <title>Cafetería Rouse</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+
+    <!---Jquery---->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="jquery.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="contenedor">
+            <nav class="menu">
+                <a href="#" id="btn-acerca-de">Acerca de</a>
+                <a href="#" class="printPage">Print page</a>
+                <a href="#" id="btn-contacto">Contacto</a>
+                <a href="#" id="btn-ubicacion">Ubicacion</a>
+            </nav>
+
+            <div class="textos">
+                <h1 class="nombre">Cafetería <span>Rouse</span></h1>
+            </div>
+        </div>
+    </header>
+    <b></b>
+    
+    <main class="contenedor">
+        <h2>SERVICIOS</h2>
+        <div class="servicios">
+
+            <section class="servicioEspecifico">
+                <h3>Bebidas</h3>
+                <div class="iconos">
+                    <img class="icono" src="img/6.jpg" alt="" srcset="">
+                </div>
+                <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quasi temporibus eveniet.</p>
+            </section>
+
+
+            <section class="servicioEspecifico">
+                <h3>Postres</h3>
+                <div class="iconos">
+                    <img class="icono" src="img/5.jpg" alt="" srcset="">
+                </div>
+                
+                <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quasi temporibus eveniet.</p>
+            </section>
+
+            <section class="servicioEspecifico">
+                <h3>Almuerzos</h3>
+                <div class="iconos">
+                    <img class="icono" src="img/8.jpg" alt="" srcset="">
+                </div>
+                <p id="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quasi temporibus eveniet.</p>
+            </section>
+        </div>
+        
+        <section class="galeria" id="galeria">
+            <div class="foto">
+                <img src="img/1.jpg" alt="">
+            </div>
+            <div class="foto">
+                <img src="img/2.jpg" alt="">
+            </div>
+            <div class="foto">
+                <img src="img/3.jpg" alt="">
+            </div>
+            <div class="foto">
+                <img src="img/4.jpg" alt="">
+            </div>
+            <div class="foto">
+                <img src="img/5.jpg" alt="">
+            </div>
+            <div class="foto">
+                <img src="img/6.jpg" alt="">
+            </div>
+            <div class="foto">
+                <img src="img/7.jpg" alt="">
+            </div>
+            <div class="foto">
+                <img src="img/8.jpg" alt="">
+            </div>
+        </section>
+        
+    </main>
+    <section class="parrafos">
+            
+        <button id="stop">Stop sliding</button>
+    
+        <div id="flip">Sobre nosotros</div>
+        <div id="panel">Cafetería Rouse es una empresa familiar resultado de la integración de un nutrido grupo de empresas con décadas de
+            experiencia en el sector del café. Una empresa global con enfoque local, basada en la cercanía al cliente a
+            través de cada una de nuestras marcas de tradición local.</div>
+       
+    <footer>
+        <button id="find">Find Me</button>
+        <div id="result">   </div>
+    </footer>
+
+</body>
+
+</html>
